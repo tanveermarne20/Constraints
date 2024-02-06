@@ -1,1 +1,15 @@
 --This is Customer_Connect Project 
+
+SELECT *
+FROM SALES;
+
+SELECT *
+FROM PRODUCT;
+
+SELECT *
+FROM CUSTOMER;
+
+
+DESC SALES;
+DESC CUSTOMER;
+DESC PRODUCT;
