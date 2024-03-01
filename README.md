@@ -1,4 +1,4 @@
-## SQL  Constraints
+# SQL  Constraints
 
 # Description
 1. Constraints are rules that define the relationships and characteristics of the data in a database. 
