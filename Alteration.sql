@@ -27,9 +27,14 @@ DROP PRIMARY KEY;
 
 
 --=======================================================
---Adding column that is EMAIL
+--Adding columns
 ALTER TABLE CUSTOMER
 ADD  EMAIL VARCHAR2(80);
+
+
+ALTER TABLE CUSTOMER
+ADD No_Of_Complaints NUMBER DEFAULT 0;
+
 
 --ADDING UNIQUE KEY
 ALTER TABLE CUSTOMER
@@ -45,3 +50,27 @@ SET EMAIL='sophia@gmail.com'
 WHERE CUSTOMER_ID=6;
 
 
+
+
+SELECT * FROM EMPLOYEE;
+
+SELECT *
+FROM EMPLOYEE
+WHERE SALARY=5000;
+
+CREATE INDEX P1 
+ON  EMPLOYEE(SALARY);
+
+DESC EMPLOYEE;
+ALTER TABLE EMPLOYEE
+DROP INDEX ;
+
+--To check how many indexes are there in table
+SELECT *
+FROM USER_INDEXES
+WHERE TABLE_NAME='EMPLOYEE';
+
+--To check on which column index is there
+SELECT *
+FROM USER_IND_COLUMNS
+WHERE TABLE_NAME='EMPLOYEE';
