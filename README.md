@@ -1,4 +1,4 @@
-<img src="./Constraint.jpg" style="margin: auto; width: 100%;">
+<img src="./SQL-Constraints_image.jpg" style="margin: auto; width: 100%;">
 # SQL  Constraints
 
 ## Description
