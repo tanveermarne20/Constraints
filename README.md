@@ -1,4 +1,6 @@
 <img src="./Constraintsimage.png" style="margin: auto; width: 100%;">
+<img src="./Constraint1.jpg" style="margin: auto; width: 100%;">
+<img src="./Constraint2.jpg" style="margin: auto; width: 100%;">
 
 ## SQL Constraints
 
